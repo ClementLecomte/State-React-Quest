@@ -2,8 +2,14 @@
   text-align: center;
 }
 
-.App-logo {
+.Yes {
   animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.No {
+  animation: App-logo-noSpin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
 }
@@ -30,4 +36,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+@keyframes App-logo-noSpin {
+  transform: scale(1);
 }
