@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 
 import "./App.css";
-
+import Characters from "./Characters";
 import Quote from "./Quote";
 import Quotes from "./Quotes";
 import Lamp from "./Lamp";
@@ -14,6 +14,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
         <Work />
+        <Characters/>
 
 
           <h1 className="App-title">Simpsons Quotes</h1>
